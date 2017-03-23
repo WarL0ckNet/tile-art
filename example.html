@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Example SVG mahjong tiles</title> 
+        <link rel="stylesheet" href="css/svg.css">
+    </head> 
+    <body>
+        <svg width="0" height="0">
+        	<defs>
+        		<filter id="inset-shadow">
+					<feoffset dx="0" dy="0"></feoffset>
+					<fegaussianblur stddeviation="1.5" result="offset-blur"></fegaussianblur>
+					<fecomposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"></fecomposite>
+					<feflood flood-color="black" flood-opacity="1" result="color"></feflood>
+					<fecomposite operator="in" in="color" in2="inverse" result="shadow"></fecomposite>
+					<fecomposite operator="over" in="shadow" in2="SourceGraphic"></fecomposite>
+				</filter> 
+       		</defs> 
+   		</svg> 
+        <svg class="rotate"><use class="face" xlink:href="img/tiles.svg#m1"></use> </svg> &nbsp;
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#m1"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#m9"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#p1"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#p9"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#s1"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#s9"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#tan"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#nan"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#xia"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#pei"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#chun"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#haku"></use> </svg> 
+        <svg class="tile"><use class="face" xlink:href="img/tiles.svg#hatsu"></use> </svg> 
+        <br>
+        <svg class="tenbo"><use class="face" xlink:href="img/tiles.svg#t100"></use> </svg> 
+        <svg class="tenbo"><use class="face" xlink:href="img/tiles.svg#t1k"></use> </svg> 
+        <svg class="tenbo"><use class="face" xlink:href="img/tiles.svg#t5k"></use> </svg> 
+        <svg class="tenbo"><use class="face" xlink:href="img/tiles.svg#t10k"></use> </svg> 
+    </body> 
+</html> 
