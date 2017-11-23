@@ -128,7 +128,7 @@
 			<g transform="translate(83.62956,163.26965)">
 				<use xlink:href="#pin_p23_blue"/>
 			</g>
-			<g transform="translate(150.98466,277.96585)">
+			<g transform="translate(153.05711,275.73864)">
 				<use xlink:href="#pin_p23_blue_red"/>
 			</g>
 			<g transform="translate(220.48466,388.20763)">
@@ -141,7 +141,7 @@
 				<g transform="translate(84.70585,170.42937)">
 					<use xlink:href="#pin_p23_blue"/>
 				</g>
-				<g transform="translate(206.72735,170.60034)">
+				<g transform="translate(221.40837,170.60034)">
 					<use xlink:href="#pin_p23_blue"/>
 				</g>
 			</g>
@@ -151,94 +151,83 @@
 		</symbol>
 		<symbol id="p5" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
-			<g transform="translate(88.56438,379.33519)">
-				<use xlink:href="#pin_p23_blue"/>
-			</g>
-			<g transform="translate(205.19518,379.34039)">
-				<use xlink:href="#pin_p23_blue"/>
-			</g>
-			<g transform="translate(146.91943,276.28519)">
+			<use xlink:href="#p4"/>
+			<g transform="translate(153.05711,275.73864)">
 				<use xlink:href="#pin_p23_blue_red"/>
-			</g>
-			<g transform="translate(92.68282,171.81899)">
-				<use xlink:href="#pin_p23_blue"/>
-			</g>
-			<g transform="translate(208.68282,171.87649)">
-				<use xlink:href="#pin_p23_blue"/>
 			</g>
 		</symbol>
 		<symbol id="pa" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
-			<g transform="translate(88.56438,379.33519)">
+			<g transform="translate(84.70585,377.69871)">
 				<use xlink:href="#pin_p23_aka"/>
 			</g>
-			<g transform="translate(205.19518,379.34039)">
+			<g transform="translate(221.40837,377.69871)">
 				<use xlink:href="#pin_p23_aka"/>
 			</g>
-			<g transform="translate(146.91943,276.28519)">
+			<g transform="translate(153.05711,275.73864)">
 				<use xlink:href="#pin_p23_aka"/>
 			</g>
-			<g transform="translate(92.68282,171.81899)">
+			<g transform="translate(84.70585,170.60034)">
 				<use xlink:href="#pin_p23_aka"/>
 			</g>
-			<g transform="translate(208.68282,171.87649)">
+			<g transform="translate(221.40837,170.60034)">
 				<use xlink:href="#pin_p23_aka"/>
 			</g>
 		</symbol>
 		<symbol id="p6" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
 			<g id="pin6_p">
-				<g transform="translate(94.98661,148.36842)">
+				<g transform="translate(94.98661,152.36842)">
 					<use xlink:href="#pin_p23_blue"/>
 				</g>
-				<g transform="translate(94.98661,281.96149)">
+				<g transform="translate(94.98661,284.96149)">
 					<use xlink:href="#pin_p23_blue_red"/>
 				</g>
-				<g transform="translate(94.98661,394)">
+				<g transform="translate(94.98661,397)">
 					<use xlink:href="#pin_p23_blue_red"/>
 				</g>
 			</g>
-			<g transform="translate(113,0)">
+			<g transform="translate(115,0)">
 				<use xlink:href="#pin6_p"/>
 			</g>
 		</symbol>
 		<symbol id="p7" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
-			<g transform="translate(70,130)">
+			<g transform="translate(74,130)">
 				<use xlink:href="#pin_p3_blue"/>
 			</g>
-			<g transform="translate(150,170)">
+			<g transform="translate(154,171)">
 				<use xlink:href="#pin_p3_blue"/>
 			</g>
-			<g transform="translate(230,210)">
+			<g transform="translate(234,212)">
 				<use xlink:href="#pin_p3_blue"/>
 			</g>
-			<g transform="translate(100,310)">
+			<g transform="translate(102,310)">
 				<use xlink:href="#pin_p3_blue_red"/>
 			</g>
-			<g transform="translate(100,410)">
+			<g transform="translate(102,410)">
 				<use xlink:href="#pin_p3_blue_red"/>
 			</g>
-			<g transform="translate(200,310)">
+			<g transform="translate(204,310)">
 				<use xlink:href="#pin_p3_blue_red"/>
 			</g>
-			<g transform="translate(200,410)">
+			<g transform="translate(204,410)">
 				<use xlink:href="#pin_p3_blue_red"/>
 			</g>
 		</symbol>
 		<symbol id="p8" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
 			<g id="pin8_p">
-				<g transform="translate(100,120)">
+				<g transform="translate(102,120)">
 					<use xlink:href="#pin_p3_blue"/>
 				</g>
-				<g transform="translate(100,220)">
+				<g transform="translate(102,220)">
 					<use xlink:href="#pin_p3_blue"/>
 				</g>
-				<g transform="translate(200,120)">
+				<g transform="translate(204,120)">
 					<use xlink:href="#pin_p3_blue"/>
 				</g>
-				<g transform="translate(200,220)">
+				<g transform="translate(204,220)">
 					<use xlink:href="#pin_p3_blue"/>
 				</g>
 			</g>
@@ -249,20 +238,20 @@
 		<symbol id="p9" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
 			<g id="pin9_p">
-				<g transform="translate(60,150)">
+				<g transform="translate(60,146)">
 					<use xlink:href="#pin_p3_blue"/>
 				</g>
-				<g transform="translate(60,275)">
+				<g transform="translate(60,270)">
 					<use xlink:href="#pin_p3_blue_red"/>
 				</g>
-				<g transform="translate(60,400)">
+				<g transform="translate(60,396)">
 					<use xlink:href="#pin_p3_blue"/>
 				</g>
 			</g>
-			<g transform="translate(90,0)">
+			<g transform="translate(94,0)">
 				<use xlink:href="#pin9_p"/>
 			</g>
-			<g transform="translate(180,0)">
+			<g transform="translate(188,0)">
 				<use xlink:href="#pin9_p"/>
 			</g>
 		</symbol>
@@ -294,19 +283,19 @@
 			<g transform="translate(48.73756,388.44836)">
 				<use xlink:href="#sou_p1" style="fill: #000000"/>
 			</g>
-			<g transform="translate(216.19468,388.01498)">
+			<g transform="translate(218.7769,388.01498)">
 				<use xlink:href="#sou_p1" style="fill: #000000"/>
 			</g>
-			<g transform="translate(129.90487,210.15999)">
+			<g transform="translate(133.75723,210.15999)">
 				<use xlink:href="#sou_p1" style="fill: #000000"/>
 			</g>
 		</symbol>
 		<symbol id="s4" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
-			<g transform="translate(-87.87313,0)">
+			<g transform="translate(-84,0)">
 				<use xlink:href="#sou2_p"/>
 			</g>
-			<g transform="translate(50.12687,0)">
+			<g transform="translate(84,0)">
 				<use xlink:href="#sou2_p"/>
 			</g>
 		</symbol>
@@ -347,27 +336,27 @@
 		<symbol id="s6" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
 			<g id="sou6_p">
-				<g transform="translate(37.11352,211.86675)">
+				<g transform="translate(133.75723,211.86675)">
 					<use xlink:href="#sou_p1" style="fill: #000000"/>
 				</g>
-				<g transform="translate(39.33026,388.32053)">
+				<g transform="translate(133.75723,388.32053)">
 					<use xlink:href="#sou_p1" style="fill: #000000"/>
 				</g>
 			</g>
-			<g transform="translate(91.23014,0)">
+			<g transform="translate(-88.54578,0)">
 				<use xlink:href="#sou6_p"/>
 			</g>
-			<g transform="translate(181.31018,0)">
+			<g transform="translate(88.54578,0)">
 				<use xlink:href="#sou6_p"/>
 			</g>
 		</symbol>
 		<symbol id="s7" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
 			<g id="sou7_p">
-				<g transform="translate(53.8,275.37085)">
+				<g transform="translate(55.8,275.37085)">
 					<use xlink:href="#sou_p2" style="fill: #000000"/>
 				</g>
-				<g transform="translate(53.8,396.11706)">
+				<g transform="translate(55.8,396.11706)">
 					<use xlink:href="#sou_p2" style="fill: #000000"/>
 				</g>
 			</g>
@@ -377,7 +366,7 @@
 			<g transform="translate(162,0)">
 				<use xlink:href="#sou7_p"/>
 			</g>
-			<g transform="translate(134.8,153.06558)">
+			<g transform="translate(135.75723,153.06558)">
 				<use xlink:href="#sou_p2" style="fill: #881c21"/>
 			</g>
 		</symbol>
@@ -393,13 +382,13 @@
 		<symbol id="s9" viewBox="0 0 320 446">
 			<use xlink:href="#tile"/>
 			<g id="sou9_p">
-				<g transform="translate(57.40015,156.46562)">
+				<g transform="translate(57.40015,154.63404)">
 					<use xlink:href="#sou_p2" style="fill: #000000"/>
 				</g>
-				<g transform="translate(139.42544,154.63404)">
+				<g transform="translate(135.75723,154.63404)">
 					<use xlink:href="#sou_p2" style="fill: #881c21"/>
 				</g>
-				<g transform="translate(217.85139,155.9811)">
+				<g transform="translate(214.11431,154.63404)">
 					<use xlink:href="#sou_p2" style="fill: #000000"/>
 				</g>
 			</g>
