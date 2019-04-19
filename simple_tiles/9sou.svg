@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	<defs>
+	   <filter id="inset-shadow">
+	    	<feOffset dx="0" dy="0"/>
+	     	<feGaussianBlur stdDeviation="8" result="offset-blur"/>
+	     	<feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+	     	<feFlood flood-color="black" flood-opacity="1" result="color"/>
+	     	<feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+	     	<feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+	    </filter>
+		<symbol id="tile" viewBox="0 0 320 446">
+			<rect x="0" y="0" width="320" height="446" rx="30" ry="30" style="fill: #ffffff" filter="url(#inset-shadow)"/>
+		</symbol>
+		<g id="sou_p2">
+			<path d="M 0,0 c -4.450,-4.450 -3.911,-7.264 2.576,-13.449 l 5.5,-5.242 0,-8.644 0,-8.644 -4.455,-3.065 c -9.986,-6.870 -10.164,-13.248 -0.626,-22.483 l 4.082,-3.952 3.6e-4,-8.047 3.7e-4,-8.047 -5.051,-4.5 c -6.493,-5.785 -7.051,-9.255 -2.038,-12.684 11.264,-7.705 34.303,-8.067 46.816,-0.734 6.247,3.661 5.965,6.778 -1.227,13.596 l -5.5,5.213 0,7.616 c 0,7.346 0.109,7.697 3.077,9.891 3.570,2.640 8.922,10.645 8.922,13.346 0,3.456 -2.918,7.519 -7.465,10.392 l -4.530,2.862 -0.002,9.347 -0.002,9.347 5,4.495 c 4.166,3.746 5,5.070 5,7.948 0,7.602 -7.698,10.496 -16.859,6.339 -5.660,-2.568 -13.079,-2.559 -18.140,0.022 -5.892,3.006 -11.490,2.663 -15.076,-0.923 z      	m 30.576,-22.035 0,-16.459 -3.5,-0.738 c -1.925,-0.406 -5.187,-0.294 -7.25,0.247 l -3.75,0.986 0,15.794 c 0,8.687 0.318,16.113 0.707,16.502 0.389,0.389 3.651,0.576 7.25,0.416 l 6.542,-0.290 0,-16.459 z      	m 2.75,-21.987 c 1.979,-0.141 0.397,-3.184 -2.410,-4.636 -6.340,-3.278 -20.371,-0.173 -17.089,3.782 0.903,1.089 10.380,1.503 19.499,0.853 z      	m 0.558,-9.295 c 0.983,-5.106 -16.919,-6.431 -19.980,-1.479 -1.483,2.399 1.221,3.230 10.337,3.176 7.827,-0.046 9.377,-0.319 9.642,-1.697 z      	m -2.776,-20.155 c 0.023,-9.054 0.401,-12.591 1.5,-14.044 2.246,-2.969 1.791,-6.906 -1.112,-9.634 -5.613,-5.273 -17.419,-1.844 -17.419,5.058 0,1.449 0.660,3.508 1.468,4.575 1.098,1.452 1.476,4.989 1.5,14.044 l 0.031,12.102 7,0 7,0 0.031,-12.102 z"/>
+		</g>
+		<symbol id="s9" viewBox="0 0 320 446">
+			<use xlink:href="#tile"/>
+			<g id="sou9_p">
+				<g transform="translate(57.400,154.634)">
+					<use xlink:href="#sou_p2" style="fill: #000000"/>
+				</g>
+				<g transform="translate(135.757,154.634)">
+					<use xlink:href="#sou_p2" style="fill: #881c21"/>
+				</g>
+				<g transform="translate(214.114,154.634)">
+					<use xlink:href="#sou_p2" style="fill: #000000"/>
+				</g>
+			</g>
+			<g transform="translate(0,118.560)">
+				<use xlink:href="#sou9_p"/>
+			</g>
+			<g transform="translate(0,238.358)">
+				<use xlink:href="#sou9_p"/>
+			</g>
+		</symbol>
+	</defs>
+	<use xlink:href="#s9"/>
+</svg>

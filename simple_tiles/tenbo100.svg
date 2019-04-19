@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	<defs>
+	   <filter id="inset-shadow">
+	    	<feOffset dx="0" dy="0"/>
+	     	<feGaussianBlur stdDeviation="8" result="offset-blur"/>
+	     	<feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+	     	<feFlood flood-color="black" flood-opacity="1" result="color"/>
+	     	<feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+	     	<feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+	    </filter>
+		<g id="tenbo">
+			<rect x="0" y="0" width="1250" height="100" rx="35" ry="35" style="fill: #ffffff" filter="url(#inset-shadow)"/>
+		</g>
+		<symbol id="t100" viewBox="0 0 1250 100">
+			<use xlink:href="#tenbo"/>
+			<g id="t100_p">
+				<circle cx="550" cy="30" r="10" style="fill: #003800"/>
+				<circle cx="550" cy="70" r="10" style="fill: #003800"/>
+			</g>
+			<g transform="translate(50,0)">
+				<use xlink:href="#t100_p"/>
+				<g transform="translate(50,0)">
+					<use xlink:href="#t100_p"/>
+					<g transform="translate(50,0)">
+						<use xlink:href="#t100_p"/>
+					</g>
+				</g>
+			</g>
+		</symbol>
+	</defs>
+	<use xlink:href="#t100"/>
+</svg>

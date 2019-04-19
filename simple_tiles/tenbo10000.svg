@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	<defs>
+	   <filter id="inset-shadow">
+	    	<feOffset dx="0" dy="0"/>
+	     	<feGaussianBlur stdDeviation="8" result="offset-blur"/>
+	     	<feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+	     	<feFlood flood-color="black" flood-opacity="1" result="color"/>
+	     	<feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+	     	<feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+	    </filter>
+		<g id="tenbo">
+			<rect x="0" y="0" width="1250" height="100" rx="35" ry="35" style="fill: #ffffff" filter="url(#inset-shadow)"/>
+		</g>
+		<g id="tenbo2">
+			<use xlink:href="#tenbo"/>
+			<circle cx="625" cy="50" r="15" style="fill: #ba1920"/>
+			<g id="t5000_p">
+				<circle cx="570" cy="30" r="10" style="fill: #ba1920"/>
+				<circle cx="570" cy="70" r="10" style="fill: #ba1920"/>
+			</g>
+			<g transform="translate(110,0)">
+				<use xlink:href="#t5000_p"/>
+			</g>
+		</g>
+		<symbol id="t10k" viewBox="0 0 1250 100">
+			<use xlink:href="#tenbo2"/>
+			<circle cx="515" cy="50" r="10" style="fill: #ba1920"/>
+			<circle cx="735" cy="50" r="10" style="fill: #ba1920"/>
+			<circle cx="425" cy="50" r="25" style="fill: #003800"/>
+			<circle cx="825" cy="50" r="25" style="fill: #003800"/>
+		</symbol>
+	</defs>
+	<use xlink:href="#t10k"/>
+</svg>

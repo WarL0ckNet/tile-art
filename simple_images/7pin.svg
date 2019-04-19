@@ -26,7 +26,6 @@
 			</g>
 		</g>
 		<symbol id="p7" viewBox="0 0 320 446">
-			<use xlink:href="#tile"/>
 			<g transform="translate(74,130)">
 				<use xlink:href="#pin_p3_blue"/>
 			</g>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	 <defs>
+	   <filter id="inset-shadow">
+	    	<feOffset dx="0" dy="0"/>
+	     	<feGaussianBlur stdDeviation="8" result="offset-blur"/>
+	     	<feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+	     	<feFlood flood-color="black" flood-opacity="1" result="color"/>
+	     	<feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+	     	<feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+	    </filter>
+		<symbol id="tile" viewBox="0 0 320 446">
+			<rect x="0" y="0" width="320" height="446" rx="30" ry="30" style="fill: #ffba1e" filter="url(#inset-shadow)"/>
+		</symbol>
+	</defs>
+	<use xlink:href="#tile"/>
+</svg>
